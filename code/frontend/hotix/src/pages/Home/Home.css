@@ -1,0 +1,39 @@
+.technologies {
+  width: 35%;
+  padding-bottom: 4rem;
+}
+
+.techno {
+  padding: 2rem 0;
+  user-select: none;
+  height: 30%;
+  box-shadow: "10px 16px 11px rgba(0, 0, 0, 0.26)";
+}
+
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
+@media screen and (max-width: 1350px) {
+  .technologies {
+    width: 60%;
+  }
+
+  .techno-details {
+    padding: 3rem 2rem 1.5rem;
+  }
+  .techno {
+    padding-bottom: 1.5rem;
+  }
+}
+
+/* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width: 600px) {
+  .technologies {
+    width: 80%;
+  }
+
+  .techno-details {
+    padding: 3rem 1rem 1.5rem;
+  }
+  .techno {
+    padding-bottom: 1rem;
+  }
+}

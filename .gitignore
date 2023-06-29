@@ -1,0 +1,10 @@
+.idea
+venv
+build/releases/
+.env
+
+code/backend/hotix_server/db.sqlite3
+code/backend/hotix_server/.env
+code/frontend/hotix/.env
+
+__pycache__

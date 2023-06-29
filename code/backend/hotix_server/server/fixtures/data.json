@@ -1,0 +1,745 @@
+[
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add event",
+      "content_type": 7,
+      "codename": "add_event"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change event",
+      "content_type": 7,
+      "codename": "change_event"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete event",
+      "content_type": 7,
+      "codename": "delete_event"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view event",
+      "content_type": 7,
+      "codename": "view_event"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add ticket",
+      "content_type": 8,
+      "codename": "add_ticket"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change ticket",
+      "content_type": 8,
+      "codename": "change_ticket"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete ticket",
+      "content_type": 8,
+      "codename": "delete_ticket"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view ticket",
+      "content_type": 8,
+      "codename": "view_ticket"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add deal",
+      "content_type": 9,
+      "codename": "add_deal"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change deal",
+      "content_type": 9,
+      "codename": "change_deal"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete deal",
+      "content_type": 9,
+      "codename": "delete_deal"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view deal",
+      "content_type": 9,
+      "codename": "view_deal"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add account",
+      "content_type": 10,
+      "codename": "add_account"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change account",
+      "content_type": 10,
+      "codename": "change_account"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete account",
+      "content_type": 10,
+      "codename": "delete_account"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view account",
+      "content_type": 10,
+      "codename": "view_account"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$iWDWwaGKFP1Ma1xzSNs7ME$twUJr0jnofHm5OxOfFh6OrQUOCcSD3kdbeaMWFD5/3Y=",
+      "last_login": "2023-05-28T09:24:03.470Z",
+      "is_superuser": true,
+      "username": "hotix",
+      "first_name": "",
+      "last_name": "",
+      "email": "hotixtickets@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-05-24T12:59:37.753Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$E0QEra2SX4mwlCMUL4vwn6$nN7Ztfwm+SmWc61speDSGArf1B8SZd8+peCxwwJDzrQ=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "avivasulin",
+      "first_name": "Aviv",
+      "last_name": "Asulin",
+      "email": "Avivasulin1211@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-05-24T17:30:34.500Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$ChfguqF5u9RFmX6eV3jK5F$uxjYZk8KrJxyhARMP5nAmykogU/WFWRawLooseUFU3o=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "yaelatadgi",
+      "first_name": "Yael",
+      "last_name": "Atadgi",
+      "email": "yael257977@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-05-24T17:31:15.263Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$8cuU0Poo0FihoU4IaM9qNj$1cWTJclHNZVBw25ttlArpQ7UP3ZWGCSYaAlyak56o2Q=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "shaysofer",
+      "first_name": "Shay",
+      "last_name": "Sofer",
+      "email": "shaysofer28@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-05-24T17:34:16.385Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$02oxErvPygX8l3FySkFc9s$fP/PD8zsTyIslsKSbRQmydAtjD3R36l33axbye0FPdw=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "yakovatadgi",
+      "first_name": "yakov",
+      "last_name": "atadgi",
+      "email": "yakov123@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-05-24T17:35:13.845Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "server.account",
+    "pk": 1,
+    "fields": {
+      "user": 2,
+      "image": "https://res.cloudinary.com/dfbnsaoho/image/upload/v1684949432/ifbfin0fzucd0mkqgsyp.jpg"
+    }
+  },
+  {
+    "model": "server.account",
+    "pk": 2,
+    "fields": {
+      "user": 3,
+      "image": "https://res.cloudinary.com/dfbnsaoho/image/upload/v1684949473/zvegrceeuwujgfvfiyma.jpg"
+    }
+  },
+  {
+    "model": "server.account",
+    "pk": 4,
+    "fields": {
+      "user": 5,
+      "image": "https://res.cloudinary.com/dfbnsaoho/image/upload/v1684949654/ayxmxly20ygk41jwsywi.jpg"
+    }
+  },
+  {
+    "model": "server.account",
+    "pk": 5,
+    "fields": {
+      "user": 6,
+      "image": "https://res.cloudinary.com/dfbnsaoho/image/upload/v1684949712/rbtr3ssx3hjbbdr95saq.jpg"
+    }
+  },
+  {
+    "model": "server.event",
+    "pk": 1,
+    "fields": {
+      "location": "santiago bernabeu",
+      "city": "madrid",
+      "date": "2023-06-05",
+      "time": "16:00:00",
+      "event_name": "Real Madrid VS Barcelona",
+      "time_create": "2023-05-24T17:12:11.403Z",
+      "image": "https://library.sportingnews.com/styles/crop_style_16_9_mobile_2x/s3/2022-06/Real%20Madrid%20Barcelona%20crest%20logo%20badge%20El%20Clasico%20062322.jpg?itok=ojtmcIKr",
+      "image_map_event": "https://ik.imagekit.io/enmedia/Football/seating-plans/santiago-bernabeu.jpg",
+      "category": "sport"
+    }
+  },
+  {
+    "model": "server.event",
+    "pk": 2,
+    "fields": {
+      "location": "sapir collage",
+      "city": "sderot",
+      "date": "2023-05-29",
+      "time": "15:00:00",
+      "event_name": "Funjoya",
+      "time_create": "2023-05-24T17:09:34.338Z",
+      "image": "https://eilat.city/images/events/eventItem/%D7%A4%D7%A1%D7%98%D7%99%D7%91%D7%9C-%D7%94%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D-%D7%A4%D7%90%D7%A0%D7%92'%D7%95%D7%99%D7%94.jpg",
+      "image_map_event": "https://www.twca.in/static/core/images/no_map.png",
+      "category": "festivals"
+    }
+  },
+  {
+    "model": "server.event",
+    "pk": 3,
+    "fields": {
+      "location": "sapir collage",
+      "city": "sderot",
+      "date": "2023-06-04",
+      "time": "10:00:00",
+      "event_name": "Music Festivals",
+      "time_create": "2023-05-24T16:55:25.085Z",
+      "image": "https://web-static.wrike.com/blog/content/uploads/2018/01/The-Best-Project-Management-Conferences-to-Attend-1.jpg?av=3072654e67ca47d7e02cf6a0472b239f",
+      "image_map_event": "https://www.twca.in/static/core/images/no_map.png",
+      "category": "festivals"
+    }
+  },
+  {
+    "model": "server.event",
+    "pk": 4,
+    "fields": {
+      "location": "Stade de France Stadium",
+      "city": "Paris",
+      "date": "2023-08-21",
+      "time": "20:00:00",
+      "event_name": "Beyonce",
+      "time_create": "2023-05-24T18:07:06.857Z",
+      "image": "https://ticketport.co.uk/images/artists/beyonce.jpg",
+      "image_map_event": "https://seatpickstatics.s3.amazonaws.com/venueImages/CLF_Champions_League_Paris_2022_blocks.png",
+      "category": "Concerts"
+    }
+  },
+  {
+    "model": "server.event",
+    "pk": 5,
+    "fields": {
+      "location": "Tottenham Hotspur Stadium",
+      "city": "London",
+      "date": "2023-06-04",
+      "time": "10:00:00",
+      "event_name": "Beyonce",
+      "time_create": "2023-05-24T18:08:38.787Z",
+      "image": "https://blog.siriusxm.com/wp-content/uploads/2023/02/GettyImages-531491318-1.jpg?w=940",
+      "image_map_event": "https://sportsevents365-images.s3.eu-west-1.amazonaws.com/venues/thumbs/1000.png",
+      "category": "Concerts"
+    }
+  },
+  {
+    "model": "server.event",
+    "pk": 6,
+    "fields": {
+      "location": "The Colosseum at Caesars Palace",
+      "city": "Las Vegas",
+      "date": "2023-07-24",
+      "time": "21:00:00",
+      "event_name": "Adele",
+      "time_create": "2023-05-24T17:13:34.493Z",
+      "image": "https://deadline.com/wp-content/uploads/2022/10/adele-egot-broadway.jpg?w=1000",
+      "image_map_event": "https://www.rateyourseats.com/assets/images/seating_charts/static/the-colosseum-at-caesars-palace-seating-chart.jpg",
+      "category": "Concerts"
+    }
+  },
+  {
+    "model": "server.event",
+    "pk": 7,
+    "fields": {
+      "location": "Lluis Companys Olympic Stadium",
+      "city": "Barcelona",
+      "date": "2023-07-31",
+      "time": "20:00:00",
+      "event_name": "coldplay",
+      "time_create": "2023-05-24T18:44:14.121Z",
+      "image": "https://prismic-images.tmol.io/ticketmaster-tm-uk/96ed168d-3c31-4767-9349-a0cd87fe426e_JMH+_COLDPLAY_02_049_v1-A_HR.jpg?auto=compress,format&rect=122,0,2788,1176&w=1024&h=432",
+      "image_map_event": "https://mcdn.ticketseating.com/450w/7828-estadio-olimpico-lluis-companys-general.jpg",
+      "category": "Concerts"
+    }
+  },
+  {
+    "model": "server.event",
+    "pk": 8,
+    "fields": {
+      "location": "Shrine Auditorium and Expo Hall",
+      "city": "Los Angeles",
+      "date": "2023-06-30",
+      "time": "20:00:00",
+      "event_name": "Ed Sheeran",
+      "time_create": "2023-05-24T16:58:15.171Z",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Ed_Sheeran-6886_%28cropped%29.jpg",
+      "image_map_event": "https://s3.amazonaws.com/media.ticketevolution.com/configurations/static_maps/16967/medium.jpg?1424366975",
+      "category": "Concerts"
+    }
+  },
+  {
+    "model": "server.event",
+    "pk": 9,
+    "fields": {
+      "location": "Menora Mivtachim Arena",
+      "city": "Tel Aviv",
+      "date": "2023-07-18",
+      "time": "20:00:00",
+      "event_name": "young talents",
+      "time_create": "2023-05-24T17:08:26.485Z",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxzamktNZYAOxU5TzElsRNnKvUfin2smOuzgFznQ6gQJK3QE75e16m-KJExtctfM7JQg8&usqp=CAU",
+      "image_map_event": "https://www.nicepng.com/png/detail/279-2792372_menora-mivtachim-arena-scott-stadium-seating-chart-for.png",
+      "category": "Entertaiment"
+    }
+  },
+  {
+    "model": "server.event",
+    "pk": 10,
+    "fields": {
+      "location": "Atad Street 6, Ofakim",
+      "city": "ofakim",
+      "date": "2023-05-31",
+      "time": "15:00:00",
+      "event_name": "Shahar Hason",
+      "time_create": "2023-05-30T17:00:53.407Z",
+      "image": "https://i.ytimg.com/vi/c-wuMVyFHMg/maxresdefault.jpg",
+      "image_map_event": "https://www.habama.co.il/Upload/Maps/nes-ziona-ulam-map.jpg",
+      "category": "Entertaiment"
+    }
+  },
+  {
+    "model": "server.event",
+    "pk": 11,
+    "fields": {
+      "location": "Snunit Street 4, Lehavim",
+      "city": "Lehavim",
+      "date": "2023-06-01",
+      "time": "15:00:00",
+      "event_name": "Shahar Hason",
+      "time_create": "2023-05-30T17:01:59.543Z",
+      "image": "https://i.ytimg.com/vi/c-wuMVyFHMg/maxresdefault.jpg",
+      "image_map_event": "https://www.habama.co.il/Upload/Maps/nes-ziona-ulam-map.jpg",
+      "category": "Entertaiment"
+    }
+  },
+  {
+    "model": "server.ticket",
+    "pk": 24,
+    "fields": {
+      "id_event": 5,
+      "id_owner": 5,
+      "is_sold": false,
+      "row": 23,
+      "area": "5",
+      "seat": 12,
+      "price": 95.0,
+      "type": "Regular",
+      "age": "No limit",
+      "pdf_file": "pdfs/beyonce.pdf",
+      "category": null,
+      "time_create": "2023-05-29T13:48:53.838Z"
+    }
+  },
+  {
+    "model": "server.ticket",
+    "pk": 25,
+    "fields": {
+      "id_event": 1,
+      "id_owner": 5,
+      "is_sold": false,
+      "row": 1,
+      "area": "1",
+      "seat": 1,
+      "price": 166.0,
+      "type": "Student",
+      "age": "No limit",
+      "pdf_file": "pdfs/soccer.pdf",
+      "category": null,
+      "time_create": "2023-05-29T13:50:10.930Z"
+    }
+  },
+  {
+    "model": "server.ticket",
+    "pk": 26,
+    "fields": {
+      "id_event": 3,
+      "id_owner": 2,
+      "is_sold": false,
+      "row": 1,
+      "area": "1",
+      "seat": 1,
+      "price": 5.0,
+      "type": "Student",
+      "age": "No limit",
+      "pdf_file": "pdfs/coldplay.pdf",
+      "category": null,
+      "time_create": "2023-05-29T13:50:49.096Z"
+    }
+  },
+  {
+    "model": "server.deal",
+    "pk": 24,
+    "fields": {
+      "id_ticket": 24,
+      "id_seller": 5,
+      "id_buyer": 5,
+      "status": "wating for sale",
+      "status_location": "The event has not yet occurred",
+      "reason": "",
+      "price": 95.0,
+      "time_create": "2023-05-29T13:48:53.845Z"
+    }
+  },
+  {
+    "model": "server.deal",
+    "pk": 25,
+    "fields": {
+      "id_ticket": 25,
+      "id_seller": 5,
+      "id_buyer": 5,
+      "status": "wating for sale",
+      "status_location": "The event has not yet occurred",
+      "reason": "",
+      "price": 166.0,
+      "time_create": "2023-05-29T13:50:10.939Z"
+    }
+  },
+  {
+    "model": "server.deal",
+    "pk": 26,
+    "fields": {
+      "id_ticket": 26,
+      "id_seller": 2,
+      "id_buyer": 2,
+      "status": "wating for sale",
+      "status_location": "The event has not yet occurred",
+      "reason": "",
+      "price": 5.0,
+      "time_create": "2023-05-29T13:50:49.103Z"
+    }
+  }
+]
