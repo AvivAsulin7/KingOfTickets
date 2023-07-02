@@ -7,7 +7,7 @@ Me and my partner proudly present our final project from our studies as part of 
 ✅ Search engine with filter functionality. <br>
 ✅ Service for receiving purchased tickets via email. <br>
 ✅ Identification of fake event tickets. <br>
-✅ Prevention of brokering by restricting sellers from setting prices above the original card price. <br>
+✅ Prevention of brokering by restricting sellers from setting prices above the original ticket price. <br>
 
 NOTE:More confidential features that can be discussed will be present in a job interview.
 

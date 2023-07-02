@@ -4,17 +4,14 @@ import Button from "./reusable-components/Button";
 import { cardStyle, CustomLink } from "../styles/Styles";
 import { authContext } from "../contexts/authContext";
 import { Card, CardMedia, Box } from "@mui/material";
+import { imageStyle } from "../styles/Styles";
 
 const Event = ({ event }) => {
   const auth = useContext(authContext);
 
   return (
     <Card sx={cardStyle}>
-      <CardMedia
-        sx={{ height: { xs: 100, sm: 160 } }}
-        image={event.image}
-        title="picture"
-      />
+      <CardMedia sx={imageStyle} image={event.image} title="picture" />
       <ContentEvent event={event} />
 
       <Box>

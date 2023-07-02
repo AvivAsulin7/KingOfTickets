@@ -109,3 +109,12 @@ export const OptionsProfileButton = styled(Button)({
   borderRadius: "20%",
   fontSize: ["24px", "50px", "28px"],
 });
+
+export const imageStyle = {
+  height: { xs: 100, sm: 160 },
+  "&:hover": {
+    transition: "transform 1s",
+    overflow: "hidden",
+    transform: "scale(1.1)",
+  },
+};

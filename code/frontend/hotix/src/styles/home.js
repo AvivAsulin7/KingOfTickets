@@ -39,6 +39,8 @@ export const categories_styles = {
     color: "#fff",
     backgroundColor: "rgb(55, 48, 107)",
     transition: "all .5s ease-in-out",
+    transform: "translateY(-7px)",
+    borderRadius: "20px",
   },
 };
 

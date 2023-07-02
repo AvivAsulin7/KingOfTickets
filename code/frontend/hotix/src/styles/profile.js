@@ -15,6 +15,11 @@ export const styleimage = {
   width: ["100px", "150px"],
   height: ["100px", "150px"],
   border: "2px solid #fff",
+  "&:hover": {
+    transition: "transform 1s",
+    overflow: "hidden",
+    transform: "scale(1.1)",
+  },
 };
 
 export const typeStyle = {
